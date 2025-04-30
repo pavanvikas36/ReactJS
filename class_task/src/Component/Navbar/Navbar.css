@@ -1,0 +1,27 @@
+#navbar_container{
+    background-color: lightgreen;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 2rem;
+    color: white;
+}
+.navbar_right{
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+.navbar_left{
+    display: flex;
+    gap: 1rem;
+    font-size: 1.3rem;
+    color: white;
+    cursor: pointer;
+}
+.navbar_left > span{
+    border: 1px solid black;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    background-color: black;
+}
