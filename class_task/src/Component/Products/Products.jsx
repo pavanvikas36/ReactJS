@@ -1,5 +1,6 @@
 import React from 'react'
 import './Products.css'
+import Product from '../Product/Product'
 
 const Products = () => {
     const products = [
@@ -16,7 +17,15 @@ const Products = () => {
     ]     
   return (
     <div>
-        
+        {/* {products.map((p, index)=>{
+          console.log(p)
+          return (
+            <div>
+              <h1>{p.name}</h1>
+            </div>
+          )
+        })} */}
+        <Product data={products}/>
     </div>
   )
 }
