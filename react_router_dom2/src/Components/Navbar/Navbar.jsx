@@ -13,6 +13,7 @@ const Navbar = () => {
         <Link to='/about' id='link'><span>About</span></Link>
         <Link to='/contact' id='link'><span>Contact</span></Link>
         <Link to='/products' id='link'><span>Products</span></Link>
+        <Link to='/recipes' id='link'><span>Recipes</span></Link>
       </div>
     </div>
   )

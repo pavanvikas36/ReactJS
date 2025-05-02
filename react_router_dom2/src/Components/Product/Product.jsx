@@ -7,9 +7,9 @@ const Product = (singleP) => {
   return (
     <div className='productCart'>
       <img src={singleP.singleProduct.thumbnail} alt="" />
-      <h1>{singleP.singleProduct.title}</h1>
-      <p>{singleP.singleProduct.price}</p>
-      <Link to={`/products/product/${singleP.singleProduct.id}`}><span>View Details</span></Link>
+      <h1 className='title'>{singleP.singleProduct.title}</h1>
+      <p className='price'>{singleP.singleProduct.price}</p>
+      <Link to={`/products/product/${singleP.singleProduct.id}`} className='link'><span>View Details</span></Link>
     </div>
   )
 }

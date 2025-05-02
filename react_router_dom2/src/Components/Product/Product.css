@@ -4,4 +4,25 @@
     padding: 1rem;
     border-radius: 1rem;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    text-align: center;
+}
+
+.title{
+    padding: 0.5rem;
+}
+
+.price{
+    padding: 0.5rem;
+}
+
+.link{
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 0.5rem;
+    background-color: cornflowerblue;
+    transition: all ease-in 0.4s;
+}
+
+.link:hover{
+    background-color: transparent;
 }
