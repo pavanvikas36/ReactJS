@@ -3,10 +3,10 @@ import './Navbar.css'
 const Navbar = () => {
   return (
     <div id='nav'>
-      <div>
+      <div className='nav_right'>
         Pavan Solutions
       </div>
-      <div>
+      <div className='nav_left'>
         <span>Home</span>
         <span>About</span>
         <span>Contact</span>
