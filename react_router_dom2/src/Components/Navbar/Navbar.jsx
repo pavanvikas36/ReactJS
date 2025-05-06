@@ -14,6 +14,7 @@ const Navbar = () => {
         <Link to='/contact' id='link'><span>Contact</span></Link>
         <Link to='/products' id='link'><span>Products</span></Link>
         <Link to='/recipes' id='link'><span>Recipes</span></Link>
+        <Link to='/carts' id='link'><span>Carts</span></Link>
       </div>
     </div>
   )

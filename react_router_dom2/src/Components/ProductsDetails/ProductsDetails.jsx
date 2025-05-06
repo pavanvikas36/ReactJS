@@ -4,16 +4,17 @@ import data from '../Products/pData'
 import './ProductsDetails.css'
 
 const ProductsDetails = () => {
-    console.log(useParams())
+    // console.log(useParams())
     const {id} = useParams()
-    console.log(id, 'id')
+    // console.log(id, 'id')
 
     const matchedProduct = data.products.find(x=>x.id === Number(id))
     console.log(matchedProduct)
   return (
     <div className='productDetail'>
-        <img src={matchedProduct.thumbnail} alt="" />
+        <img src={matchedProduct.thumbnail} alt="" className='productImg'/>
         <h1>{matchedProduct.title}</h1>
+        <p className='productDesc'>{matchedProduct.description}</p>
         <p>{matchedProduct.price}</p>
     </div>
   )

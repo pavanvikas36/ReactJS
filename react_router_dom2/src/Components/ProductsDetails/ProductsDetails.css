@@ -1,8 +1,55 @@
-.productDetail{
+/* .productDetail{
     width: 50%;
-    height: 50vh;
+    font-size: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-img{
-    width: 100%;
+.productImg{
+    width: 40%;
 }
+
+.productDesc{
+    font-size: 1.5rem;
+} */
+
+.productDetail {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 24px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+    color: #333;
+  }
+  
+  .productImg {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .productDetail h1 {
+    font-size: 2rem;
+    margin-bottom: 12px;
+    color: #2c3e50;
+  }
+  
+  .productDesc {
+    font-size: 1rem;
+    margin: 16px 0;
+    line-height: 1.6;
+    color: #555;
+  }
+  
+  .productDetail p:last-of-type {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #27ae60;
+    margin-top: 10px;
+  }
+  

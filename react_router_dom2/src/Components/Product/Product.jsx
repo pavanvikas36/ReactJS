@@ -3,7 +3,7 @@ import './Product.css'
 import {Link} from 'react-router-dom'
 
 const Product = (singleP) => {
-    console.log(singleP)
+    // console.log(singleP)
   return (
     <div className='productCart'>
       <img src={singleP.singleProduct.thumbnail} alt="" />

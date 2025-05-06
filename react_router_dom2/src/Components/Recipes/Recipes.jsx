@@ -3,10 +3,10 @@ import Recipe from '../Recipe/Recipe'
 import './Recipes.css'
 
 const Recipes = (pro) => {
-    console.log(pro.recipeD, 'pro data')
+    // console.log(pro.recipeD, 'pro data')
     const resD = pro.recipeD
   return (
-    <div className='recipe'>
+    <div className='card-container'>
       {/* {r.map((rec)=>{
         return (
             <div>

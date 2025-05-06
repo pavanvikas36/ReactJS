@@ -1,6 +1,53 @@
-.recipeCart{
+/* .recipeCart{
     margin: 1rem 1rem;
     padding: 1rem;
     border-radius: 1rem;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-}
+} */
+
+.recipeCart {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    text-align: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    width: 100%;
+    max-width: 300px;
+    margin: auto;
+  }
+  
+  .recipeCart:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .recipeCart img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 12px;
+  }
+  
+  .recipeCart h1 {
+    font-size: 1.2rem;
+    margin: 8px 0;
+    color: #333;
+  }
+  
+  .recipeCart a {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 8px 16px;
+    background-color: rgb(122, 206, 233);
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background-color 0.2s ease;
+  }
+  
+  .recipeCart a:hover {
+    background-color: cornflowerblue;
+  }
+  

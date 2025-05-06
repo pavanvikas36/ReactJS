@@ -1,9 +1,23 @@
-.products{
+.productGrid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 1rem;
-    align-items: center;
-}
-img{
-    width: 100%;
-}
+    gap: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+
+  .productCart {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 16px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .productCart:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  }
+  

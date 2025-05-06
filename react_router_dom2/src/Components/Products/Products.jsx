@@ -3,10 +3,10 @@ import Product from '../Product/Product'
 import './Products.css'
 
 const Products = (prop) => {
-    console.log(prop.productsData, 'prop data')
+    // console.log(prop.productsData, 'prop data')
     const d = prop.productsData
   return (
-    <div className='products'>
+    <div className='productGrid'>
       {/* {d.map((p)=>{
         return (
             <div>
