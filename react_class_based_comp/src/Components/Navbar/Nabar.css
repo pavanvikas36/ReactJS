@@ -1,0 +1,45 @@
+#nav {
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  /* Logo or brand section */
+  .nav_right {
+    font-size: 1.4rem;
+    font-weight: 600;
+    cursor: pointer;
+    color: #333;
+  }
+  
+  /* Navigation links container */
+  .nav_left {
+    display: flex;
+    gap: 1.1rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
+  
+  /* Individual nav links */
+  .nav_left > #link {
+    cursor: pointer;
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.3rem;
+    transition: all ease-in 0.4s;
+    text-decoration: none;
+    color: #222;
+    background-color: transparent;
+  }
+  
+  /* Hover effect */
+  .nav_left > #link:hover {
+    background-color: cornflowerblue;
+    color: white;
+  }
+  
