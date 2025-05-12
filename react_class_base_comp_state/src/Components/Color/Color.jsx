@@ -27,25 +27,25 @@ class Color extends React.Component {
         <div className="space-x-4">
           <button
             onClick={() => this.handColor("indigo")}
-            className="px-4 py-2 bg-indigo-700 hover:bg-indigo-800 rounded"
+            className="px-4 py-2 bg-indigo-700 border-4 border-double hover:bg-indigo-800 rounded"
           >
             Indigo
           </button>
           <button
             onClick={() => this.handColor("fuchsia")}
-            className="px-4 py-2 bg-fuchsia-700 hover:bg-fuchsia-800 rounded"
+            className="px-4 py-2 bg-fuchsia-700 border-4 border-double hover:bg-fuchsia-800 rounded"
           >
             Fuchsia
           </button>
           <button
             onClick={() => this.handColor("slate")}
-            className="px-4 py-2 bg-slate-700 hover:bg-slate-800 rounded"
+            className="px-4 py-2 bg-slate-700 border-4 border-double hover:bg-slate-800 rounded"
           >
             Slate
           </button>
           <button
             onClick={() => this.handColor("neutral")}
-            className="px-4 py-2 bg-neutral-700 hover:bg-neutral-800 rounded"
+            className="px-4 py-2 bg-neutral-700 border-4 border-double hover:bg-neutral-800 rounded"
           >
             Neutral
           </button>

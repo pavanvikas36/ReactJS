@@ -1,5 +1,5 @@
 {
-  "name": "react_class_base_comp_state",
+  "name": "react_class_base_comp_state_examples",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,18 +7,12 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "start": "react-scripts start",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "preview": "vite preview"
   },
   "dependencies": {
-    "@tailwindcss/vite": "^4.1.6",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "react-icons": "^5.5.0",
-    "react-router-dom": "^7.6.0",
-    "tailwindcss": "^4.1.6"
+    "react-icons": "^5.5.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.25.0",
